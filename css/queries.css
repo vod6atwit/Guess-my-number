@@ -17,9 +17,6 @@ Instead, 1 rem = 1 em = 16px */
   .check {
     font-size: 1.4rem;
   }
-  .number {
-    width: 12.5rem;
-  }
   .right {
     font-size: 1.8rem;
   }
@@ -32,7 +29,7 @@ Instead, 1 rem = 1 em = 16px */
 
 @media (max-width: 44em) {
   h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   .between {
     font-size: 0.7rem;
@@ -43,9 +40,6 @@ Instead, 1 rem = 1 em = 16px */
   }
   .check {
     font-size: 1rem;
-  }
-  .number {
-    width: 10rem;
   }
   .right {
     font-size: 1rem;

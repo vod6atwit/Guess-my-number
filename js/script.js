@@ -31,6 +31,7 @@ document.querySelector('.check').addEventListener('click', function () {
       changeColor('#541b21');
       //when player win
     } else if (guess === secretNumber) {
+      document.querySelector('h1').textContent = '🥳 Congratulation!';
       displayMessage('🎉 Correct Number!');
       displayNumber(secretNumber);
       changeColor('#60b347');
