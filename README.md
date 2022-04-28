@@ -14,7 +14,7 @@ My Number Guessing Game is a program used to guess numbers between 1 to 100 assi
 4. Save and calculate Score and highscore
 5. The computer automatically assigns a random number
 6. Create animation by changing color and text
-7. Warning player with 
+7. Warning players with a message
 
 ## Getting Started
 
@@ -43,7 +43,7 @@ My Number Guessing Game is a program used to guess numbers between 1 to 100 assi
 
 #### 6. You will be alerted if your guess number is too high or too low
 
-<img src="img/Too low.png" width = 50%> <img src="img/Too high.png" width = 50%> 
+<img src="img/Too low.png" width = 49%> <img src="img/Too high.png" width = 49%> 
 
 #### 7. The screen will turn green if you enter it correctly 
 
