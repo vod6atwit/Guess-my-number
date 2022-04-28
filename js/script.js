@@ -61,6 +61,7 @@ document.querySelector('.again').addEventListener('click', function () {
   displayMessage('Start guessing...');
   displayNumber('?');
   displayScore(score);
+  document.querySelector('h1').textContent = 'Guess My Number!';
   document.querySelector('.guess').value = '';
   document.querySelector('body').style.backgroundColor = '#222';
   document.querySelector('.number').style.width = '15rem';
