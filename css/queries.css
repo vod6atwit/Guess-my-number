@@ -1,0 +1,25 @@
+/* rem and em do NOT depend on html font size in media queries! 
+Instead, 1 rem = 1 em = 16px */
+
+/* ********************************** */
+/* 944/16 = 59 */
+/* BELOW 992px (Tablets) */
+/* ********************************** */
+
+@media (max-width: 62em) {
+  html {
+    /* 9px/16px = 56.25% */
+    font-size: 56.25%;
+  }
+}
+
+/* ********************************** */
+/* 704/16 = 44 */
+/* BELOW 704px (Phones) */
+/* ********************************** */
+
+@media (max-width: 44em) {
+  html {
+    font-size: 30%;
+  }
+}
