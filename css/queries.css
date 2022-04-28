@@ -7,9 +7,21 @@ Instead, 1 rem = 1 em = 16px */
 /* ********************************** */
 
 @media (max-width: 62em) {
-  html {
-    /* 9px/16px = 56.25% */
-    font-size: 56.25%;
+  h1 {
+    font-size: 2.5rem;
+  }
+  .guess {
+    width: 20rem;
+    font-size: 3rem;
+  }
+  .check {
+    font-size: 1.4rem;
+  }
+  .number {
+    width: 12.5rem;
+  }
+  .right {
+    font-size: 1.8rem;
   }
 }
 
@@ -19,7 +31,26 @@ Instead, 1 rem = 1 em = 16px */
 /* ********************************** */
 
 @media (max-width: 44em) {
-  html {
-    font-size: 30%;
+  h1 {
+    font-size: 2rem;
+  }
+  .between {
+    font-size: 0.7rem;
+  }
+  .guess {
+    width: 10rem;
+    font-size: 2rem;
+  }
+  .check {
+    font-size: 1rem;
+  }
+  .number {
+    width: 10rem;
+  }
+  .right {
+    font-size: 1rem;
+  }
+  .again {
+    font-size: 1rem;
   }
 }
