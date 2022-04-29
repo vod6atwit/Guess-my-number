@@ -21,7 +21,7 @@ const changeColor = function (color) {
   document.querySelector('body').style.backgroundColor = color;
 };
 
-document.querySelector('.check').addEventListener('click', function () {
+const checkGuessValue = function () {
   const guess = Number(document.querySelector('.guess').value);
 
   if (score > 1) {
@@ -53,8 +53,19 @@ document.querySelector('.check').addEventListener('click', function () {
     displayScore(0);
     displayMessage('💥 You lost the game!');
   }
+};
+
+// check guess value when Check Button is clicked
+document.querySelector('.check').addEventListener('click', checkGuessValue);
+
+// check guess value when Enter Key is pressed
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Enter') {
+    checkGuessValue();
+  }
 });
 
+// back to main display
 document.querySelector('.again').addEventListener('click', function () {
   score = 20;
   secretNumber = Math.trunc(Math.random() * 100) + 1;
