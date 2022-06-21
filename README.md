@@ -21,7 +21,7 @@ My Number Guessing Game is a program used to guess numbers between 1 to 100 assi
 
 [1]: https://guess-my-number-vod6.netlify.app/ 'Guess my number'
 
-#### [Guess my number](https://guess-my-number-vod6.netlify.app/){:target="\_blank"}
+#### <a href="https://guess-my-number-vod6.netlify.app/" target="_blank">Hello, world!</a>
 
 ## Getting Started
 
