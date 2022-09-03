@@ -19,7 +19,7 @@ My Number Guessing Game is a program used to guess numbers between 1 to 100 assi
 
 ### You Can Try It Here: [Guess my number][1] 😎
 
-[1]: https://guess-my-number-vod6.netlify.app/ 'Guess my number'
+[1]: https://guessnumber.duyvotech.com/ 'Guess my number'
 
 <!-- #### <a href="https://guess-my-number-vod6.netlify.app/" target="_blank">Hello, world!</a> -->
 
